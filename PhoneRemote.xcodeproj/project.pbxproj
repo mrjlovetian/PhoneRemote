@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DF3D7C38885CE7F202D56E8 /* libPods-PhoneRemote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD45B076FB1761AC2348E70 /* libPods-PhoneRemote.a */; };
+		C24757A01F1F4A34004FC8D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C247579F1F1F4A34004FC8D6 /* main.m */; };
+		C24757A31F1F4A34004FC8D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C24757A21F1F4A34004FC8D6 /* AppDelegate.m */; };
+		C24757A61F1F4A34004FC8D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24757A51F1F4A34004FC8D6 /* ViewController.m */; };
+		C24757A91F1F4A34004FC8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24757A71F1F4A34004FC8D6 /* Main.storyboard */; };
+		C24757AB1F1F4A34004FC8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24757AA1F1F4A34004FC8D6 /* Assets.xcassets */; };
+		C24757AE1F1F4A34004FC8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24757AC1F1F4A34004FC8D6 /* LaunchScreen.storyboard */; };
+		C24757B71F1F4A71004FC8D6 /* RemoteSender.m in Sources */ = {isa = PBXBuildFile; fileRef = C24757B61F1F4A71004FC8D6 /* RemoteSender.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C01B094A23FFDE95F958BE5 /* Pods-PhoneRemote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneRemote.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneRemote/Pods-PhoneRemote.release.xcconfig"; sourceTree = "<group>"; };
+		5CD45B076FB1761AC2348E70 /* libPods-PhoneRemote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhoneRemote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		985290EC6B424F1B13A78B16 /* Pods-PhoneRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneRemote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoneRemote/Pods-PhoneRemote.debug.xcconfig"; sourceTree = "<group>"; };
+		C247579B1F1F4A34004FC8D6 /* PhoneRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C247579F1F1F4A34004FC8D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C24757A11F1F4A34004FC8D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C24757A21F1F4A34004FC8D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C24757A41F1F4A34004FC8D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C24757A51F1F4A34004FC8D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C24757A81F1F4A34004FC8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C24757AA1F1F4A34004FC8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24757AD1F1F4A34004FC8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C24757AF1F1F4A34004FC8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24757B51F1F4A71004FC8D6 /* RemoteSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteSender.h; sourceTree = "<group>"; };
+		C24757B61F1F4A71004FC8D6 /* RemoteSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteSender.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C24757981F1F4A34004FC8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF3D7C38885CE7F202D56E8 /* libPods-PhoneRemote.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8D5C62D3EAA3085AAD42B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				985290EC6B424F1B13A78B16 /* Pods-PhoneRemote.debug.xcconfig */,
+				1C01B094A23FFDE95F958BE5 /* Pods-PhoneRemote.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C24757921F1F4A34004FC8D6 = {
+			isa = PBXGroup;
+			children = (
+				C247579D1F1F4A34004FC8D6 /* PhoneRemote */,
+				C247579C1F1F4A34004FC8D6 /* Products */,
+				3C8D5C62D3EAA3085AAD42B2 /* Pods */,
+				D42011B78D9EE06C25D27F61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C247579C1F1F4A34004FC8D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C247579B1F1F4A34004FC8D6 /* PhoneRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C247579D1F1F4A34004FC8D6 /* PhoneRemote */ = {
+			isa = PBXGroup;
+			children = (
+				C24757A11F1F4A34004FC8D6 /* AppDelegate.h */,
+				C24757A21F1F4A34004FC8D6 /* AppDelegate.m */,
+				C24757A41F1F4A34004FC8D6 /* ViewController.h */,
+				C24757A51F1F4A34004FC8D6 /* ViewController.m */,
+				C24757B51F1F4A71004FC8D6 /* RemoteSender.h */,
+				C24757B61F1F4A71004FC8D6 /* RemoteSender.m */,
+				C24757A71F1F4A34004FC8D6 /* Main.storyboard */,
+				C24757AA1F1F4A34004FC8D6 /* Assets.xcassets */,
+				C24757AC1F1F4A34004FC8D6 /* LaunchScreen.storyboard */,
+				C24757AF1F1F4A34004FC8D6 /* Info.plist */,
+				C247579E1F1F4A34004FC8D6 /* Supporting Files */,
+			);
+			path = PhoneRemote;
+			sourceTree = "<group>";
+		};
+		C247579E1F1F4A34004FC8D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C247579F1F1F4A34004FC8D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D42011B78D9EE06C25D27F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD45B076FB1761AC2348E70 /* libPods-PhoneRemote.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C247579A1F1F4A34004FC8D6 /* PhoneRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24757B21F1F4A34004FC8D6 /* Build configuration list for PBXNativeTarget "PhoneRemote" */;
+			buildPhases = (
+				1DA7119EF12582ECFBE5137A /* [CP] Check Pods Manifest.lock */,
+				C24757971F1F4A34004FC8D6 /* Sources */,
+				C24757981F1F4A34004FC8D6 /* Frameworks */,
+				C24757991F1F4A34004FC8D6 /* Resources */,
+				BB6E872A7C8740DA96B0E76E /* [CP] Embed Pods Frameworks */,
+				9337A156A4630EE8C3D56D4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneRemote;
+			productName = PhoneRemote;
+			productReference = C247579B1F1F4A34004FC8D6 /* PhoneRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24757931F1F4A34004FC8D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mr;
+				TargetAttributes = {
+					C247579A1F1F4A34004FC8D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 58VA3BYFVV;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C24757961F1F4A34004FC8D6 /* Build configuration list for PBXProject "PhoneRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24757921F1F4A34004FC8D6;
+			productRefGroup = C247579C1F1F4A34004FC8D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C247579A1F1F4A34004FC8D6 /* PhoneRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C24757991F1F4A34004FC8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24757AE1F1F4A34004FC8D6 /* LaunchScreen.storyboard in Resources */,
+				C24757AB1F1F4A34004FC8D6 /* Assets.xcassets in Resources */,
+				C24757A91F1F4A34004FC8D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DA7119EF12582ECFBE5137A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9337A156A4630EE8C3D56D4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneRemote/Pods-PhoneRemote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB6E872A7C8740DA96B0E76E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoneRemote/Pods-PhoneRemote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C24757971F1F4A34004FC8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24757A61F1F4A34004FC8D6 /* ViewController.m in Sources */,
+				C24757A31F1F4A34004FC8D6 /* AppDelegate.m in Sources */,
+				C24757B71F1F4A71004FC8D6 /* RemoteSender.m in Sources */,
+				C24757A01F1F4A34004FC8D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C24757A71F1F4A34004FC8D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24757A81F1F4A34004FC8D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C24757AC1F1F4A34004FC8D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24757AD1F1F4A34004FC8D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C24757B01F1F4A34004FC8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C24757B11F1F4A34004FC8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C24757B31F1F4A34004FC8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985290EC6B424F1B13A78B16 /* Pods-PhoneRemote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 58VA3BYFVV;
+				INFOPLIST_FILE = PhoneRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.topsales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ba19eb07-42b0-49ef-8cce-7340d5760727";
+				PROVISIONING_PROFILE_SPECIFIER = "TopSales Development Profile";
+			};
+			name = Debug;
+		};
+		C24757B41F1F4A34004FC8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C01B094A23FFDE95F958BE5 /* Pods-PhoneRemote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PhoneRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakao.topsales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C24757961F1F4A34004FC8D6 /* Build configuration list for PBXProject "PhoneRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24757B01F1F4A34004FC8D6 /* Debug */,
+				C24757B11F1F4A34004FC8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24757B21F1F4A34004FC8D6 /* Build configuration list for PBXNativeTarget "PhoneRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24757B31F1F4A34004FC8D6 /* Debug */,
+				C24757B41F1F4A34004FC8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24757931F1F4A34004FC8D6 /* Project object */;
+}
